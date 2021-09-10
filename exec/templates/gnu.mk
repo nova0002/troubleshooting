@@ -5,10 +5,10 @@
 
 ############
 # Command Macros
-FC = mpif90
-CC = mpicc
-CXX = mpicc
-LD = mpif90
+FC = /home/anovak/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/openmpi-3.1.6-vcsrq3vgchevv2weu3cfwe37jclspuuv/bin/mpif90
+CC = /home/anovak/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/openmpi-3.1.6-vcsrq3vgchevv2weu3cfwe37jclspuuv/bin/mpicc
+CXX = /home/anovak/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/openmpi-3.1.6-vcsrq3vgchevv2weu3cfwe37jclspuuv/bin/mpicc
+LD = /home/anovak/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/openmpi-3.1.6-vcsrq3vgchevv2weu3cfwe37jclspuuv/bin/mpif90
 
 #######################
 # Build target macros
